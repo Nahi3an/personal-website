@@ -26,16 +26,16 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
-#first-part,
-#second-part {
-  border: 1px solid;
+#intro-part,
+#about-part {
   height: 400px;
 }
 
-#third-part,
-#last-part {
-  border: 1px solid;
+#working-project-part {
   height: 500px;
+}
+#social-part {
+  height: 600px;
 }
 
 .half-portion {
@@ -66,11 +66,12 @@ a {
   margin-top: 50px;
 }
 
-#third-part {
+#working-project-part {
   background-color: #e5e5e5;
 }
 
-#third-part h2 {
+#working-project-part h2 {
+  padding-top: 25px;
   text-align: center;
 }
 
@@ -98,17 +99,38 @@ a {
 .work-enq img {
   width: 50%;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .img-header {
   position: absolute;
-  top: 47%;
+  top: 40%;
   left: 30%;
   color: white;
   font-weight: normal;
 }
 .lets-chat-btn {
   position: absolute;
-  top: 43%;
+  top: 36%;
   left: 60%;
+}
+
+.social-connection {
+  text-align: center;
+}
+
+.social-connection h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #696871;
+}
+
+.social-connection p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #363958;
+}
+
+.social-icon a img {
+  height: 80px;
 }
