@@ -1,7 +1,10 @@
 body {
   margin: auto;
 }
-
+.nav {
+  float: right;
+  border: 1px solid;
+}
 h1 {
   font-family: "Bebas Neue", cursive;
   font-size: 48px;
