@@ -1,9 +1,17 @@
 body {
   margin: auto;
 }
-.nav {
+
+.nav-right {
   float: right;
-  border: 1px solid;
+  padding: 20px;
+}
+.nav-right a {
+  padding-right: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #363958;
+  font-size: 18px;
 }
 h1 {
   font-family: "Bebas Neue", cursive;
@@ -21,19 +29,23 @@ h3 {
 }
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 25px;
+  color: grey;
 }
 
 a {
   font-family: "Roboto", sans-serif;
 }
 
-#intro-part,
-#about-part {
-  height: 400px;
+#intro-part {
+  height: 500px;
 }
 
+#about-part {
+  height: 500px;
+  background: whitesmoke;
+}
 #working-project-part {
   height: 500px;
 }
@@ -50,6 +62,7 @@ a {
 .half-portion img {
   height: 400px;
   padding-left: 15%;
+  margin-top: 5px;
 }
 
 .half-portion h1 {
@@ -76,9 +89,11 @@ a {
 #working-project-part h2 {
   padding-top: 25px;
   text-align: center;
+  margin-top: 0px;
 }
 
 .work-img-portion {
+  height: 62%;
   width: 20%;
   float: left;
   margin-left: 8%;
@@ -87,7 +102,6 @@ a {
   border-radius: 10px;
 }
 .work-img-portion p {
-  text-align: justify;
 }
 .work-img-portion img {
   width: 100%;
@@ -136,4 +150,8 @@ a {
 
 .social-icon a img {
   height: 80px;
+}
+
+footer {
+  text-align: center;
 }
